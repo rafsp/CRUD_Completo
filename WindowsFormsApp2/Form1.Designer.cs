@@ -35,19 +35,21 @@
             // dgvAluno
             // 
             this.dgvAluno.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvAluno.Location = new System.Drawing.Point(177, 96);
+            this.dgvAluno.Location = new System.Drawing.Point(103, 85);
+            this.dgvAluno.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvAluno.Name = "dgvAluno";
             this.dgvAluno.RowHeadersWidth = 51;
             this.dgvAluno.RowTemplate.Height = 24;
-            this.dgvAluno.Size = new System.Drawing.Size(535, 150);
+            this.dgvAluno.Size = new System.Drawing.Size(401, 122);
             this.dgvAluno.TabIndex = 0;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(756, 524);
+            this.ClientSize = new System.Drawing.Size(567, 426);
             this.Controls.Add(this.dgvAluno);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
